@@ -9,7 +9,7 @@
   tasks:
     - name: Gather IOS facts
       cisco.ios.ios_facts:
-      gather_subset: all
+        gather_subset: all
 
     - name: Display device hostname and OS version
       ansible.builtin.debug:
